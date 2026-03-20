@@ -1,0 +1,93 @@
+.experience-section {
+  padding: 5rem 1.5rem;
+}
+
+/* Keep the Skills & Certifications card centered instead of full-bleed. */
+.experience-section.section-alt {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: clamp(1.5rem, 4vw, 3rem);
+  padding-right: clamp(1.5rem, 4vw, 3rem);
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.experience-block {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  box-shadow: var(--shadow-card);
+  border: 1px solid rgba(15, 23, 42, 0.05);
+  transition: all var(--transition);
+}
+
+[data-theme='dark'] .experience-block {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.experience-block:hover {
+  box-shadow: var(--shadow-elevated);
+}
+
+.experience-subtitle {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--accent-blue);
+}
+
+.education-item {
+  margin-bottom: 1.25rem;
+}
+
+.education-item:last-child {
+  margin-bottom: 0;
+}
+
+.education-institution {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.education-degree {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.education-detail {
+  font-size: 0.85rem;
+  color: var(--accent-blue);
+  font-weight: 600;
+  margin-top: 0.25rem;
+}
+
+.cert-list,
+.achievement-list {
+  list-style: none;
+}
+
+.cert-list li,
+.achievement-list li {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  padding: 0.4rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent-blue);
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.cert-list li:last-child,
+.achievement-list li:last-child {
+  margin-bottom: 0;
+}

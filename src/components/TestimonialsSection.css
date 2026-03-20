@@ -1,0 +1,63 @@
+.testimonials-section {
+  padding: 5rem 1.5rem;
+}
+
+.testimonials-container {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background: var(--gradient-card);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: var(--shadow-elevated);
+  border: 1px solid rgba(15, 23, 42, 0.05);
+  border-left: 4px solid var(--accent-blue);
+}
+
+.testimonial-quote {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.testimonial-footer strong {
+  color: var(--text-primary);
+}
+
+.testimonial-footer span {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.testimonials-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.testimonial-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid var(--text-secondary);
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.2s ease;
+}
+
+.testimonial-dot:hover,
+.testimonial-dot.active {
+  background: var(--accent-blue);
+  border-color: var(--accent-blue);
+}

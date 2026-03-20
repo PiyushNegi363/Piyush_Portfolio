@@ -1,0 +1,44 @@
+:root,
+[data-theme='light'] {
+  --bg-main: #f8fafc;
+  --bg-alt: #f1f5f9;
+  --bg-card: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --accent-blue: #3b82f6;
+  --accent-blue-dark: #2563eb;
+  --accent-teal: #14b8a6;
+  --accent-coral: #f43f5e;
+  --accent-violet: #8b5cf6;
+  --accent-yellow: #fbbf24;
+  --accent-pink: #ec4899;
+  --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f43f5e 100%);
+  --gradient-hero-subtle: linear-gradient(135deg, #e0e7ff 0%, #fce7f3 50%, #e0f2fe 100%);
+  --gradient-card: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  --gradient-btn-primary: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  --gradient-btn-secondary: linear-gradient(145deg, #ffffff 0%, #f1f5f9 100%);
+  --radius-card: 20px;
+  --radius-lg: 28px;
+  --radius-sm: 12px;
+  --shadow-card: 0 4px 24px rgba(15, 23, 42, 0.08);
+  --shadow-elevated: 0 24px 64px rgba(15, 23, 42, 0.12);
+  --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.25);
+  --font-sans: 'Poppins', sans-serif;
+  --font-display: 'Space Grotesk', 'Poppins', sans-serif;
+  --transition: 0.25s ease;
+  --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme='dark'] {
+  --bg-main: #0f172a;
+  --bg-alt: #1e293b;
+  --bg-card: #1e293b;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --shadow-elevated: 0 24px 64px rgba(0, 0, 0, 0.4);
+  --gradient-card: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+  --gradient-btn-secondary: linear-gradient(145deg, #334155 0%, #1e293b 100%);
+}
