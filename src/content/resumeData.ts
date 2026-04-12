@@ -41,6 +41,18 @@ export const resumeData = {
   ],
   projects: [
     {
+      title: 'ChatPulse Pro: WhatsApp Analyzer',
+      year: '2025',
+      tech: ['Streamlit', 'Plotly', 'Pandas', 'Regex'],
+      demo: '#',
+      repo: 'https://github.com/PiyushNegi363/WhatsApp--chat-analyzer',
+      bullets: [
+        'Developed a high-performance, privacy-first analytics dashboard using Streamlit and Plotly for deep message analysis.',
+        'Engineered a robust preprocessing engine with regex-driven parsing, Unicode cleaning, and Hinglish stop-word filtering.',
+        'Implemented advanced data visualizations including hourly activity heatmaps, sentiment word clouds, and engagement timelines.',
+      ],
+    },
+    {
       title: 'Spam Email Classification System',
       year: '2024',
       tech: ['Python', 'NLP', 'Scikit-learn', 'Streamlit'],

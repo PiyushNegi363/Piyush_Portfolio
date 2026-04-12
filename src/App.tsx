@@ -28,22 +28,22 @@ function AppContent() {
       <main>
         <HeroSection />
         <div className="section-divider" />
-        <AnimateOnScroll>
+        <AnimateOnScroll animation="scale-up">
           <ServicesCarousel />
         </AnimateOnScroll>
-        <AnimateOnScroll>
+        <AnimateOnScroll animation="fade-up">
           <AboutSection />
         </AnimateOnScroll>
-        <AnimateOnScroll>
+        <AnimateOnScroll animation="scale-up" stagger>
           <ProjectsSection />
         </AnimateOnScroll>
-        <AnimateOnScroll>
+        <AnimateOnScroll animation="slide-left">
           <ExperienceSection />
         </AnimateOnScroll>
-        <AnimateOnScroll>
+        <AnimateOnScroll animation="slide-right">
           <TestimonialsSection />
         </AnimateOnScroll>
-        <AnimateOnScroll>
+        <AnimateOnScroll animation="pop-in">
           <ContactSection />
         </AnimateOnScroll>
       </main>
